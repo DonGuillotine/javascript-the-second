@@ -192,3 +192,28 @@ const chekwubeAge = now - 1990;
 
 
 console.log(kingsleyAge, chekwubeAge);
+
+
+// Multiplication, Division and raise to power
+console.log(kingsleyAge * 2, kingsleyAge / 5, chekwubeAge ** 3);
+
+
+/**
+ * Create 2 variables
+ * The datatype must be strings
+ * Add the two varaibles
+ * And display the result in the console
+ */
+
+let firstName = "Donald";
+let lastName = "Nwokoro";
+
+console.log(firstName + " " + lastName);
+
+
+// -------------------- Assignment Operators (=) -------------------------
+let numberOne = 10 + 5;
+
+numberOne += 5; // numberOne = numberOne + 5;
+
+console.log(numberOne);

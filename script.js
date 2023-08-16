@@ -84,3 +84,43 @@ console.log(money, typeof money);
 
 // Similarities
 console.log(null === undefined);
+
+
+// ***************************** let, const and var **********************
+
+/* The let keyword
+
+The let keyword was introduced in ES6 (2015)
+
+    **Rules**
+    1. let cannot be Redeclared
+    2. let must be Declared before use
+    3. let has Block Scope
+*/
+
+// 1. let cannot be redeclared
+let subject = "Mathematics";
+// let subject = "English";
+
+// var can be redeclared
+var friut = "Orange";
+var friut = "Apple";
+
+console.log(friut);
+
+
+// 2. let must be Declared before use
+// console.log(myVariable);
+
+// let myVariable = 10;
+
+let myNumber = 10;
+
+console.log(myNumber);
+
+/* Hoisting -> You can use the variable before it is declared 
+-------let and const are not hoisted-----------
+*/
+sayHiToMe = "Hi Donald";
+var sayHiToMe;
+console.log(sayHiToMe);

@@ -121,6 +121,74 @@ console.log(myNumber);
 /* Hoisting -> You can use the variable before it is declared 
 -------let and const are not hoisted-----------
 */
-sayHiToMe = "Hi Donald";
+sayHiToMe = console.log("Hi Donald");
 var sayHiToMe;
-console.log(sayHiToMe);
+
+
+// 3. let has Block Scope
+{
+    let job = 5;
+    console.log(job);
+}
+
+// console.log(job);
+
+
+// ----------------- var does not have block scope -----------------------
+{
+    var animal = "Lion"
+}
+
+console.log(animal);
+
+
+// ------------------var Redeclaring a variable inside a block will also redeclare the variable outside the block-----------------------------------------
+var macBook = 10;
+
+{
+    var macBook = 200;
+}
+
+console.log(macBook);
+
+//--------------------------let Redeclaring a variable inside a block will not redeclare the variable outside the block--------------------
+
+let windows = 5;
+
+{
+    let windows = 6000;
+}
+
+console.log(windows);
+
+
+/* The const keyword
+
+The const keyword was introduced in ES6 (2015)
+
+    **Rules**
+    1. const cannot be Reassigned
+    2. const cannot be Redeclared
+    3. const has Block Scope
+*/
+
+// 1. const cannot be Reassigned
+const costFromTempSiteToKodex = 200;
+// costFromTempSiteToKodex = 100;
+// console.log(costFromTempSiteToKodex);
+
+
+// 2. const cannot be Redeclared
+// const yes = true;
+// const yes = no;
+
+
+// ************************** Basic Operators ****************************
+
+// Math Operators (Subtraction)
+const now = 2023;
+const kingsleyAge = now - 1988;
+const chekwubeAge = now - 1990;
+
+
+console.log(kingsleyAge, chekwubeAge);

@@ -213,7 +213,39 @@ console.log(firstName + " " + lastName);
 
 // -------------------- Assignment Operators (=) -------------------------
 let numberOne = 10 + 5;
-
 numberOne += 5; // numberOne = numberOne + 5;
-
 console.log(numberOne);
+
+
+let numberTwo = 2 + 5;
+numberTwo *= 7;
+console.log(numberTwo);
+
+let numberThree = 1;
+numberThree++; // numberThree = numberThree + 1;
+console.log(numberThree);
+
+
+let numberFour = 4;
+numberFour--; // numberFour = numberFour - 1;
+console.log(numberFour);
+
+
+// ----------- Comparison Operators (>, <, >=, <=, ==, ===) -------------
+
+let obinnaAge, charlesAge;
+
+obinnaAge = '35';
+charlesAge = 29;
+
+console.log(obinnaAge <= charlesAge);
+
+
+// ------------------- Operator Precedence ----------------------
+const yearNow = 2023;
+const guysAge = yearNow - 1982;
+const chidubemAge = yearNow - 1990;
+
+
+// console.log(guysAge, chidubemAge, guysAge + chidubemAge);
+console.log((guysAge + chidubemAge) * 10);

@@ -274,15 +274,15 @@ johnHeight = 1.95;
 
 
 // Step 2 - Mark and John's BMI using the formular: BMI = mass / height ** 2 
-markBMI = markMass / markHeight ** 2; // markMass / markHeight * markHeight
-johnBMI = johnMass / johnHeight ** 2;
+// markBMI = markMass / markHeight ** 2;
+// johnBMI = johnMass / johnHeight ** 2;
 
-console.log(markBMI, johnBMI);
+// console.log(markBMI, johnBMI);
 
 
 // Step 3 - Create a boolean variable 'markHigherBMI'
-markHigherBMI = markBMI > johnBMI;
-console.log(markHigherBMI);
+// markHigherBMI = markBMI > johnBMI;
+// console.log(markHigherBMI);
 
 
 // ***************************** Strings and Template Literals ***************************
@@ -318,3 +318,52 @@ else{
     console.log("Write some code!")
 }
 
+////////////////////////////////////
+// Coding Challenge #2
+
+/*
+Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
+
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+
+HINT: Use an if/else statement 😉
+
+GOOD LUCK 😀
+*/
+
+markBMI = markMass / markHeight ** 2;
+johnBMI = johnMass / johnHeight ** 2;
+
+console.log(markBMI, johnBMI);
+
+if(markBMI > johnBMI){
+    console.log(`Marks's BMI ${markBMI} is higher than John's ${johnBMI}`);
+}
+else{
+    console.log(`John's BMI ${johnBMI} is higher than Mark's ${markBMI}`);
+}
+
+// *********************** Type Conversion and Coersion *********************************
+// Type conversion is the process of converting a value from one type to another
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 10);
+
+console.log(Number('Donald'));
+
+console.log(String(23), 23);
+
+// Type Coersion
+// Type coersion is when JavaScript coerces or changes a data type by itself
+
+const sum = 35 + 'hello';
+console.log(sum);
+
+console.log('23' - '10' - 3);
+
+console.log('24' / '2');
+
+let n = '1' + 1;
+n = n - 1;
+console.log(n);

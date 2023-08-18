@@ -298,4 +298,23 @@ const donaldnewer = `I'm ${myName}, a ${currentYear - yearOfBirth} year old ${my
 console.log(donaldnewer);
 
 
-// ************************** Taking Decisions: if / else Statement ***********************
+// ************************* Taking Decisions: if / else Statement ***********************
+const johnAge = 18;
+
+if(johnAge >= 18){
+    console.log(`John is eligible to drink Alchohol 🍺, because his age is ${johnAge}`);
+}
+else{
+    const yearsLeft = 18 - johnAge;
+    console.log(`John is not eligible to drink Alchohol 😭. Wait another ${yearsLeft} years`);
+}
+
+let dayOfTheWeek = 'Tuesday';
+
+if(dayOfTheWeek === 'Monday'){
+    console.log("SIT AT HOME 🏠");
+}
+else{
+    console.log("Write some code!")
+}
+

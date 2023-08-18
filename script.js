@@ -283,3 +283,19 @@ console.log(markBMI, johnBMI);
 // Step 3 - Create a boolean variable 'markHigherBMI'
 markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
+
+
+// ***************************** Strings and Template Literals ***************************
+const myName = "Donald";
+const myJob = "Backend Developer";
+const yearOfBirth = 1888;
+const currentYear = 2023;
+
+const donaldNew = "I'm " + myName + ", a " + (currentYear - yearOfBirth) + " year old " + myJob + "!";
+console.log(donaldNew);
+
+const donaldnewer = `I'm ${myName}, a ${currentYear - yearOfBirth} year old ${myJob}`;
+console.log(donaldnewer);
+
+
+// ************************** Taking Decisions: if / else Statement ***********************

@@ -466,3 +466,28 @@ else if(manchesterScore2 === barcelonaScore2 && manchesterScore2 >= 100 && barce
 else{
     console.log("Nobody wins the Trophy 😭");
 }
+
+// ******************************************* The Switch Statement *************************************************
+const day = "23";
+
+switch(day){
+    case 'Monday':
+        console.log("Sit at home 🏠");
+        break;
+    case 'Tuesday':
+        console.log("Attend class 🔥");
+        break;
+    case 'Wednesday':
+        console.log("Sleep 🚀");
+        break;
+    case 'Thursday':
+    case 'Friday':
+    console.log("Watch Movies 🍿");
+    break;
+    case 'Saturday':
+    case 'Sunday':
+        console.log("Thank God 🙏🏿");
+        break;
+    default:
+        console.log("Don't do anything");
+}

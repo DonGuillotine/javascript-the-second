@@ -516,7 +516,8 @@ else{
 //     console.log('I like Capri Sun'); 
 // }
 
-
+const age = 4;
+age >= 18 ? console.log('I love Alcohol') : console.log('I like Capri Sun');
 
 ////////////////////////////////////
 // Coding Challenge #4

@@ -495,7 +495,18 @@ switch(day){
 // --------------------------------------- Tasks (22-08-23) -----------------------------------------------------
 
 // Express the Switch Statement in an If else if else condition
-
+if(day === 'monday'){
+    console.log('Sit at home');
+}
+else if(day === 'tuesday'){
+    console.log('Go for class');
+}
+else if(day === 'thursday' || day === 'friday'){
+    console.log('Bake some Cake');
+}
+else{
+    console.log('Dont do anything');
+}
 
 // ************************************** The Ternary Operator ************************************************
 ////////////////////////////////////

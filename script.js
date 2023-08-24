@@ -509,6 +509,15 @@ else{
 }
 
 // ************************************** The Ternary Operator ************************************************
+// if(age >= 18){
+//     console.log('I love Alcohol'); 
+// }
+// else{
+//     console.log('I like Capri Sun'); 
+// }
+
+
+
 ////////////////////////////////////
 // Coding Challenge #4
 

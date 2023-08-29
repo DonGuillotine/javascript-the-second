@@ -3,3 +3,4 @@
 ## !Hello World
 
 Add Event Listener
+ternary operator

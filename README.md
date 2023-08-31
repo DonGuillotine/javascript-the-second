@@ -10,3 +10,4 @@ ternary operator
 
 Add Event Listener
 ternary operator
+Schrödinger's cat
